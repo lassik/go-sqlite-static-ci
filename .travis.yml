@@ -6,5 +6,5 @@ go:
   - 1.9
 
 script:
-  go build ./...
-  go-wrapper install -ldflags "-linkmode external -extldflags -static"
+  - go build ./...
+  - go-wrapper install -ldflags "-linkmode external -extldflags -static"
